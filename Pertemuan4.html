@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DESAIN WEB</title>
+  <style>
+    body {
+      margin: 0;
+      background: #00bfff;
+      font-family: "Times New Roman", serif;
+      color: #000;
+    }
+
+    /* container utama */
+    .container {
+      border-top: 2px solid #fff;
+      border-left: 2px solid #fff;
+      border-right: 2px solid #fff;
+      /* border-bottom dihapus supaya tidak ada garis di bawah copyright */
+      margin: 0;
+    }
+
+    /* header */
+    .header {
+      text-align: center;
+      padding: 15px 0;
+      border-bottom: 2px solid #fff;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    /* menu */
+    .menu {
+      padding: 12px 20px;
+      border-bottom: 2px solid #fff;
+      font-size: 38px;
+    }
+    .menu a {
+      margin-right: 30px;
+      text-decoration: none;
+      color: #000;
+    }
+
+    /* main layout */
+    .wrap {
+      display: flex;
+      /* border-bottom dihapus */
+    }
+
+    .left {
+      width: 30%;
+      border-right: 2px solid #fff;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .calendar {
+      background: #7CFC00;
+      text-align: center;
+      padding-top: 5px;
+      margin-bottom: 10px;
+      font-weight: normal;
+      height: 250px;
+      font-size: 20px;
+    }
+
+    .ad {
+      background: #C71585;
+      text-align: center;
+      padding-top: 5px;
+      margin-bottom: 10px;
+      font-weight: normal;
+      height: 80px;
+      font-size: 20px;
+    }
+
+    .right {
+      width: 70%;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+
+    .right h2 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 28px;
+    }
+
+    .right p {
+      text-align: justify;
+      line-height: 1.6;
+      font-size: 22px;
+    }
+
+    /* footer */
+    .footer {
+      text-align: center;
+      padding: 10px 0;          /* padding atas & bawah */
+      font-size: 14px;
+      border-top: 2px solid #fff; /* garis hanya di atas */
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>DESAIN WEB</h1>
+    </div>
+
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+    </div>
+
+    <div class="wrap">
+      <div class="left">
+        <div class="calendar">Calender</div>
+        <div class="ad">Iklan</div>
+        <div class="ad">Iklan</div>
+      </div>
+      <div class="right">
+        <h2>Layout</h2>
+        <p>
+          Dalam dunia desain, Layout berbicara mengenai bagaimana penataan elemen-elemen dalam sebuah halaman dengan benar. 
+          Sama seperti tipografi, terdapat sangat banyak elemen-elemen pada layout, yang tentunya tidak akan dapat dibahas 
+          pada bagian ini sendiri. Pembahasan layout secara menyeluruh akan memerlukan bukunya tersendiri. 
+          Kita akan hanya melihat elemen-elemen layout yang umumnya ditemukan pada dokumen web, 
+          dan bagaimana membuat elemen-elemen tersebut dengan HTML dan CSS.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      Copyright © 2012 Desain Web Class
+    </div>
+  </div>
+
+</body>
+</html>
